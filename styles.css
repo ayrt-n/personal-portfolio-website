@@ -92,12 +92,8 @@ h3 {
   background-position: 0 88%;
 }
 
-body > .content-wrapper:not(:last-child) {
-  margin-bottom: 2rem;
-}
-
 .content-wrapper {
-  padding: 0rem 0.75rem;  
+  padding: 2rem 0.75rem;
 }
 
 .content-wrapper > h2 {
@@ -120,7 +116,7 @@ body > .content-wrapper:not(:last-child) {
 
 .work-grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
   justify-content: center;
 }

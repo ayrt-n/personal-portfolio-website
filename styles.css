@@ -1,0 +1,104 @@
+/* Set Inter font as specified in https://rsms.me/inter/inter.css */
+:root { 
+  font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+/* Set CSS variables for document */
+:root {
+  --zinc-900: #18181b; 
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-weight: 400;
+  letter-spacing: -0.004em;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+}
+
+h1 {
+  font-weight: 750;
+  font-size: 4rem;
+  letter-spacing: -0.055em;
+}
+
+h2 {
+
+}
+
+h3 {
+  font-weight: 650;
+  font-size: 1.2rem;
+  letter-spacing: -0.018em;
+}
+
+.navbar {
+  min-height: 3.25rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.navbar-brand {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.navbar-burger {
+  font-size: 1.35rem;
+  margin-left: auto;
+}
+
+.text-logo {
+  font-weight: 750;
+  font-size: 1.75rem;
+  letter-spacing: -0.1em;
+}
+
+.main-content {
+  padding: 0rem 0.75rem;
+}
+
+.work-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
+  gap: 2rem;
+}
+
+.work-card {
+  border-radius: 6px;
+  box-shadow: rgba(10, 10, 10, 0.1) 0px 0.5em 1em -0.125em, rgba(10, 10, 10, 0.02) 0px 0px 0px 1px;
+}
+
+.work-image {
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.work-description {
+  padding: 0.75rem;
+}
+
+.small-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.work-header {
+  margin-bottom: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+}

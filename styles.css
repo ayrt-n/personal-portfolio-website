@@ -104,6 +104,7 @@ h3 {
   grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
   gap: 2rem;
   margin-bottom: 2rem;
+  justify-content: center;
 }
 
 .work-card {

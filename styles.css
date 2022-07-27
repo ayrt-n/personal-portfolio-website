@@ -35,7 +35,10 @@ h1 {
 }
 
 h2 {
-
+  font-weight: 700;
+  font-size: 1.75rem;
+  letter-spacing: -0.055em;
+  margin-bottom: 1rem;
 }
 
 h3 {
@@ -70,9 +73,17 @@ h3 {
   padding: 0rem 0.75rem;
 }
 
+.main-content > h2 {
+  text-align: center;
+}
+
 .hero {
   overflow: hidden;
   margin-bottom: 2rem;
+}
+
+.hero > h1 {
+  margin-bottom: 0.75rem;
 }
 
 .hero-image {
@@ -85,6 +96,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 450px));
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .work-card {
@@ -106,6 +118,11 @@ h3 {
 .small-icon {
   width: 1.2rem;
   height: 1.2rem;
+}
+
+.medium-icon {
+  width: 2rem;
+  height: 2rem;
 }
 
 .work-header {

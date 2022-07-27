@@ -69,6 +69,13 @@ h3 {
   letter-spacing: -0.1em;
 }
 
+.gradient-underline {
+  background-image: linear-gradient(120deg, #fa8484 0%, #f4e28f 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+}
+
 .main-content {
   padding: 0rem 0.75rem;
 }

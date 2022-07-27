@@ -138,3 +138,11 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+
+.contact {
+  text-align: center;
+}
+
+.contact-text > p {
+  margin-bottom: 0.75rem;
+}

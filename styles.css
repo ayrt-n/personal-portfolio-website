@@ -76,15 +76,15 @@ h3 {
   background-position: 0 88%;
 }
 
-.main-content > div:not(:last-child) {
+body > .content-wrapper:not(:last-child) {
   margin-bottom: 2rem;
 }
 
-.main-content {
-  padding: 0rem 0.75rem;
+.content-wrapper {
+  padding: 0rem 0.75rem;  
 }
 
-.main-content > h2 {
+.content-wrapper > h2 {
   text-align: center;
 }
 
@@ -109,7 +109,7 @@ h3 {
   justify-content: center;
 }
 
-.work-card {
+.card {
   border-radius: 6px;
   box-shadow: rgba(10, 10, 10, 0.1) 0px 0.5em 1em -0.125em, rgba(10, 10, 10, 0.02) 0px 0px 0px 1px;
 }

@@ -8,6 +8,8 @@
 
 /* Set CSS variables for document */
 :root {
+  --violet-200: #ddd6fe;
+  --violet-500: #8b5cf6;
   --zinc-200: #e4e4e7;
   --zinc-400: #a1a1aa;
   --zinc-700: #3f3f46;
@@ -28,6 +30,14 @@
   color: var(--zinc-200);
 }
 
+.violet-200 {
+  color: var(--violet-200);
+}
+
+.violet-500 {
+  color: var(--violet-500);
+}
+
 .zinc-400 {
   color: var(--zinc-400);
 }
@@ -42,7 +52,7 @@
 
 .button {
   color: #fafafa;
-  background-color: #991b1b;
+  background-color: #6d28d9;
   border: 1px solid transparent;
   border-radius: 4px;
   cursor: pointer;
@@ -98,7 +108,7 @@ h3 {
 }
 
 svg {
-  fill: var(--zinc-200);
+  fill: var(--violet-200);
 }
 
 .navbar {
@@ -139,7 +149,7 @@ svg {
 }
 
 .gradient-underline {
-  background-image: linear-gradient(120deg, #fa8484 0%, #f4e28f 100%);
+  background-image: linear-gradient(120deg, #a78bfa 0%, #2dd4bf 100%);
   background-repeat: no-repeat;
   background-size: 100% 0.2em;
   background-position: 0 88%;

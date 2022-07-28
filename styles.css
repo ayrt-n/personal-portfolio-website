@@ -299,7 +299,7 @@ svg {
 
 .skills-percentage {
   display: block;
-  background-color: var(--violet-500);
+  background-image: linear-gradient(120deg, #2dd4bf 0%, #a78bfa 100%);
 }
 
 .skills-html {

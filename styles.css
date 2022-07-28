@@ -232,12 +232,6 @@ svg {
   justify-content: space-between;
 }
 
-.skill-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(64px, 125px));
-  justify-content: center;
-}
-
 .content {
   display: flex;
   flex-direction: column;
@@ -247,6 +241,7 @@ svg {
 }
 
 .content-header {
+  text-align: center;
   margin-bottom: 2rem;
 }
 
@@ -267,11 +262,62 @@ svg {
   margin-bottom: 0.75rem;
 }
 
+/* Skills Section Specific Styling */
+.skill-grid {
+  margin: 0 auto;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.skill-grid-item > h3 {
+  margin-bottom: 1rem;
+}
+
 .skill-header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0.75rem;
 }
 
 .skill-title {
   font-weight: 650;
+}
+
+.skills-bar,
+.skills-percentage {
+  height: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.skills-bar {
+  background-color: var(--violet-200);
+  margin-bottom: 0.75rem;
+}
+
+.skills-percentage {
+  display: block;
+  background-color: var(--violet-500);
+}
+
+.skills-html {
+  width: 75%;
+}
+
+.skills-css {
+  width: 75%;
+}
+
+.skills-js {
+  width: 55%;
+}
+
+.skills-ruby {
+  width: 85%;
+}
+
+.skills-ror {
+  width: 80%;
 }

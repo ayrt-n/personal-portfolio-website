@@ -10,17 +10,30 @@
 :root {
   --zinc-200: #e4e4e7;
   --zinc-400: #a1a1aa;
+  --zinc-700: #3f3f46;
   --zinc-800: #27272a;
   --zinc-900: #18181b; 
 }
 
 /* Utility CSS Classes */
+.bold-500 {
+  font-weight: 500;
+}
+
+.bold-650 {
+  font-weight: 650;
+}
+
 .zinc-200 {
   color: var(--zinc-200);
 }
 
 .zinc-400 {
   color: var(--zinc-400);
+}
+
+.zinc-700 {
+  color: var(--zinc-700);
 }
 
 .red-yellow-bg {
@@ -242,4 +255,13 @@ svg {
 
 .contact-text > p {
   margin-bottom: 0.75rem;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-title {
+  font-weight: 650;
 }

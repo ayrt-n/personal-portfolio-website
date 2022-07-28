@@ -215,12 +215,16 @@ svg {
   justify-content: center;
 }
 
-.about {
+.content {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   min-height: calc(100vh - 2rem);
+}
+
+.content-header {
+  margin-bottom: 2rem;
 }
 
 .section-image {

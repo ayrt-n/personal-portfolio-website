@@ -199,6 +199,10 @@ svg {
   justify-content: space-between;
 }
 
+.content-wrapper.contact {
+  min-height: min-content;
+}
+
 .content-wrapper h2 {
   text-align: center;
 }

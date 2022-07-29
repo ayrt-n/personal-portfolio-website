@@ -270,14 +270,6 @@ svg {
   justify-content: space-between;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  min-height: calc(100vh - 2rem);
-}
-
 .content-header {
   text-align: center;
   margin-bottom: 2rem;

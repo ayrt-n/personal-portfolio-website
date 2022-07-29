@@ -114,7 +114,10 @@ svg {
 }
 
 .navbar {
+  width: 100%;
+  position: fixed;
   min-height: 3.25rem;
+  background-color: #fff;
 }
 
 .navbar-brand {

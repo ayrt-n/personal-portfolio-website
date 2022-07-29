@@ -270,7 +270,7 @@ svg {
 /* Personal Project Styling */
 .work-grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(265px, 375px));
   gap: 2rem;
   justify-content: center;
 }

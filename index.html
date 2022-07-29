@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="toggle_menu.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayrton Parkinson</title>
   </head>
@@ -16,11 +17,15 @@
     <nav class="navbar">
       <div class="navbar-brand">
         <a href="#" class="text-logo navbar-item">AP</a>
-        <a href="#" class="navbar-burger navbar-item">
-          <i class="fa fa-bars"></i>
-        </a>
+        <div class="navbar-item" onclick="toggleMenu()" id="burger">
+          <div class="navbar-burger">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </div>
+        </div>
       </div>
-      <div class="navbar-menu">
+      <div class="navbar-menu" id="menu">
         <a href="#" class="navbar-item">Home</a>
         <a href="#" class="navbar-item">Portfolio</a>
         <a href="#" class="navbar-item">About</a>

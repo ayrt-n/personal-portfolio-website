@@ -68,6 +68,52 @@
   vertical-align: top;
 }
 
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 5.25rem 0.75rem 2rem 0.75rem;
+}
+
+.gradient-underline {
+  background-image: linear-gradient(120deg, #a78bfa 0%, #2dd4bf 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+}
+
+.card {
+  border-radius: 6px;
+  box-shadow: rgba(10, 10, 10, 0.1) 0px 0.5em 1em -0.125em, rgba(10, 10, 10, 0.02) 0px 0px 0px 1px;
+}
+
+.small-icon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.medium-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.large-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.content-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-image {
+  width: 150px;
+  height: auto;
+}
+
 /* General styling for webpage and various sections */
 html {
   -webkit-font-smoothing: antialiased;
@@ -101,6 +147,7 @@ h2 {
   font-size: 1.75rem;
   letter-spacing: -0.055em;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 h3 {
@@ -113,6 +160,7 @@ svg {
   fill: var(--violet-200);
 }
 
+/* Navbar styling */
 .navbar {
   width: 100%;
   position: fixed;
@@ -179,34 +227,7 @@ svg {
   padding: 0.5rem 0.75rem;
 }
 
-.gradient-underline {
-  background-image: linear-gradient(120deg, #a78bfa 0%, #2dd4bf 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: 0 88%;
-}
-
-.content-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  box-sizing: border-box;
-  min-height: 100vh;
-  padding: 5.25rem 0.75rem 2rem 0.75rem;
-}
-
-.content-wrapper.about {
-  justify-content: space-between;
-}
-
-.content-wrapper.contact {
-  min-height: min-content;
-}
-
-.content-wrapper h2 {
-  text-align: center;
-}
-
+/* Hero Section Styling */
 .hero {
   overflow: hidden;
   text-align: center;
@@ -226,16 +247,30 @@ svg {
   margin-bottom: 2rem;
 }
 
+/* About Section Styling */
+.content-wrapper.about {
+  justify-content: space-between;
+}
+
+.about {
+  text-align: center;
+}
+
+.party-image {
+  transform: rotate(-10deg);
+}
+
+/* Contact Section Styling */
+.content-wrapper.contact {
+  min-height: min-content;
+}
+
+/* Personal Project Styling */
 .work-grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 2rem;
   justify-content: center;
-}
-
-.card {
-  border-radius: 6px;
-  box-shadow: rgba(10, 10, 10, 0.1) 0px 0.5em 1em -0.125em, rgba(10, 10, 10, 0.02) 0px 0px 0px 1px;
 }
 
 .work-image {
@@ -249,42 +284,14 @@ svg {
   padding: 0.75rem;
 }
 
-.small-icon {
-  width: 1.2rem;
-  height: 1.2rem;
-}
-
-.medium-icon {
-  width: 2rem;
-  height: 2rem;
-}
-
-.large-icon {
-  width: 3rem;
-  height: 3rem;
-}
-
 .work-header {
   margin-bottom: 0.75rem;
   display: flex;
   justify-content: space-between;
 }
 
-.content-header {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.section-image {
-  width: 150px;
-  height: auto;
-}
-
-.party-image {
-  transform: rotate(-10deg);
-}
-
-.about, .contact {
+/* Contact Section Styling */
+.contact {
   text-align: center;
 }
 

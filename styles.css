@@ -116,6 +116,7 @@
 
 /* General styling for webpage and various sections */
 html {
+  font-size: 16px;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   height: 100%;

@@ -71,12 +71,14 @@
 /* General styling for webpage and various sections */
 html {
   -webkit-font-smoothing: antialiased;
+  height: 100%;
 }
 
 body {
   color: var(--zinc-800);
   font-weight: 400;
   letter-spacing: -0.004em;
+  height: 100%;
 }
 
 a {
@@ -265,6 +267,7 @@ svg {
 /* Skills Section Specific Styling */
 .skill-grid {
   margin: 0 auto;
+  width: 100%;
   max-width: 900px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -311,7 +314,7 @@ svg {
 }
 
 .skills-js {
-  width: 55%;
+  width: 45%;
 }
 
 .skills-ruby {

@@ -68,7 +68,7 @@
   vertical-align: top;
 }
 
-.content-wrapper {
+.content-container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -250,7 +250,7 @@ svg {
 }
 
 /* About Section Styling */
-.content-wrapper.about {
+.content-container.about {
   justify-content: space-between;
 }
 
@@ -263,7 +263,7 @@ svg {
 }
 
 /* Contact Section Styling */
-.content-wrapper.contact {
+.content-container.contact {
   min-height: min-content;
 }
 

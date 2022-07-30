@@ -250,10 +250,6 @@ svg {
 }
 
 /* About Section Styling */
-.content-container.about {
-  justify-content: space-between;
-}
-
 .about {
   text-align: center;
 }

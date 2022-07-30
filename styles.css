@@ -266,11 +266,6 @@ svg {
   transform: rotate(-10deg);
 }
 
-/* Contact Section Styling */
-.content-container.contact {
-  min-height: min-content;
-}
-
 /* Personal Project Styling */
 .work-grid-container {
   display: grid;

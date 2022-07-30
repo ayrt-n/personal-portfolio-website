@@ -235,13 +235,13 @@ svg {
   margin-bottom: 0.75rem;
 }
 
-.hero-image {
-  width: 175px;
-  height: auto;
+.hero-main {
   margin-bottom: 2rem;
 }
 
-.hero svg {
+.hero-image {
+  width: 175px;
+  height: auto;
   margin-bottom: 2rem;
 }
 

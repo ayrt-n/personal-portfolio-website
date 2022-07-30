@@ -37,4 +37,8 @@
   .section-image {
     width: 200px;
   }
+
+  .content-wrapper.about {
+    justify-content: space-evenly;
+  }
 }

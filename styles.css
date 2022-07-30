@@ -68,7 +68,7 @@
   vertical-align: top;
 }
 
-.content-wrapper {
+.content-container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -250,10 +250,6 @@ svg {
 }
 
 /* About Section Styling */
-.content-wrapper.about {
-  justify-content: space-between;
-}
-
 .about {
   text-align: center;
 }
@@ -263,7 +259,7 @@ svg {
 }
 
 /* Contact Section Styling */
-.content-wrapper.contact {
+.content-container.contact {
   min-height: min-content;
 }
 

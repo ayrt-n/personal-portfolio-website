@@ -70,6 +70,7 @@
 
 .content-container {
   padding: 5.25rem 0.75rem 2rem 0.75rem;
+  margin-bottom: 3.25rem;
 }
 
 .gradient-underline {
@@ -255,6 +256,10 @@ svg {
 /* About Section Styling */
 .about {
   text-align: center;
+}
+
+.about-text {
+  margin-bottom: 4rem;
 }
 
 .party-image {

@@ -10,6 +10,9 @@
 :root {
   --violet-200: #ddd6fe;
   --violet-500: #8b5cf6;
+  --violet-600: #7c3aed;
+  --violet-700: #6d28d9;
+  --violet-900: #4c1d95;
   --zinc-200: #e4e4e7;
   --zinc-400: #a1a1aa;
   --zinc-700: #3f3f46;
@@ -46,13 +49,9 @@
   color: var(--zinc-700);
 }
 
-.red-yellow-bg {
-  background-image: (120deg, #fa8484 0%, #f4e28f 100%);
-}
-
 .button {
   color: #fafafa;
-  background-color: #6d28d9;
+  background-color: var(--violet-700);
   border: 1px solid transparent;
   border-radius: 4px;
   cursor: pointer;
@@ -66,6 +65,16 @@
   height: 2.5em;
   position: relative;
   vertical-align: top;
+}
+
+.button:hover {
+  color: #fafafa;
+  background-color: var(--violet-600);
+}
+
+.button:active {
+  color: #fafafa;
+  background-color: var(--violet-900);
 }
 
 .content-container {
@@ -128,6 +137,14 @@ body {
 a {
   color: inherit;
   text-decoration: inherit;
+}
+
+a:hover {
+  color: var(--violet-200);
+}
+
+a:active {
+  color: var(--violet-500);
 }
 
 h1, h2, h3, h4, h5, h6 {

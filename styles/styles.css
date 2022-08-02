@@ -128,7 +128,7 @@ html {
 }
 
 body {
-  color: var(--zinc-800);
+  color: var(--zinc-700);
   font-weight: 400;
   letter-spacing: -0.004em;
   height: 100%;
@@ -173,6 +173,10 @@ h3 {
 
 svg {
   fill: var(--violet-200);
+}
+
+p {
+  line-height: 1.5rem;
 }
 
 /* Navbar styling */
@@ -251,6 +255,11 @@ svg {
 
 .hero h1 {
   margin-bottom: 0.75rem;
+}
+
+.hero h2 {
+  font-size: 1.5rem;
+  color: var(--zinc-700);
 }
 
 .hero-main {

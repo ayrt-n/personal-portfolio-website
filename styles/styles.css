@@ -373,7 +373,8 @@ p {
 }
 
 .work-image {
-  height: 375px;
+  max-height: 375px;
+  height: auto;
   width: 100%;
   object-fit: cover;
   border-top-left-radius: 6px;

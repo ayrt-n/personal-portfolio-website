@@ -294,6 +294,10 @@ p {
   transform: rotate(-10deg);
 }
 
+.about a {
+  font-weight: 600;
+}
+
 /* Personal Project Styling */
 .work-grid-container {
   display: grid;

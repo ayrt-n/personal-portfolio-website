@@ -226,6 +226,7 @@ p {
 }
 
 .text-logo {
+  color: var(--zinc-900);
   font-weight: 750;
   font-size: 1.75rem;
   letter-spacing: -0.1em;
@@ -296,7 +297,7 @@ p {
 /* Personal Project Styling */
 .work-grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
   justify-content: center;
 }

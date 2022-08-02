@@ -58,4 +58,8 @@
   .portfolio .content-header {
     margin-bottom: 3.25rem;
   }
+
+  .work-grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
 }

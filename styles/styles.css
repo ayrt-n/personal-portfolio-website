@@ -437,6 +437,10 @@ p {
 }
 
 /* Contact form styling */
+input, textarea {
+  box-sizing: border-box;
+}
+
 .form {
   text-align: start;
   max-width: 600px;

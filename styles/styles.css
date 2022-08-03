@@ -408,42 +408,6 @@ p {
   margin-bottom: 0.75rem;
 }
 
-.contact h2 {
-  color: #fafafa;
-  margin-top: 3.5rem;
-}
-
-.contact-section {
-  position: relative;
-  background-color: #fafafa;
-  border: none;
-}
-
-.contact-wrapper {
-  background-color: #0f172a;
-  color: #fafafa;
-}
-
-.waves {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.waves svg {
-  position: relative;
-  display: block;
-  width: calc(140% + 1.3px);
-  height: 130px;
-}
-
-.waves .shape-fill {
-  fill: #FFF;
-}
-
 /* Contact form styling */
 input, textarea {
   box-sizing: border-box;
@@ -524,3 +488,34 @@ input, textarea {
   border-color: #485fc7;
   box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
 }
+
+/* Footer styling */
+.footer {
+  padding: 4rem 1.5rem 4rem;
+  text-align: center;
+}
+
+.footer-email {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-header{
+  color: var(--zinc-900);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.footer-sub-header {
+  font-weight: 600;
+}
+
+.footer > div {
+  margin-bottom: 0.5rem;
+}
+

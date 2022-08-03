@@ -237,6 +237,14 @@ p {
   letter-spacing: -0.1em;
 }
 
+.text-logo:hover {
+  color: var(--zinc-900);
+}
+
+.text-logo:active {
+  color: var(--zinc-900);
+}
+
 .navbar-menu {
   display: none;
   padding: 0.5rem 0;

@@ -403,6 +403,10 @@ p {
 }
 
 /* Contact Section Styling */
+.content-container.contact {
+  margin-bottom: 5rem;
+}
+
 .contact {
   text-align: center;
 }
